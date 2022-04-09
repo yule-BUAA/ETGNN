@@ -1,0 +1,47 @@
+{
+    "seed": 0,
+    "model_name": "ETGNN",
+    "dataset_name": "DC",
+    "sample_neighbors_num": 10,
+    "cuda": 0,
+    "epochs": 2000,
+    "patience": 50,
+    "optimizer": "adam",
+    "weight_decay": 0,
+    "DC": {
+        "learning_rate": 0.001,
+        "embedding_dimension": 64,
+        "embedding_dropout": 0.2,
+        "temporal_attention_dropout": 0.5,
+        "hop_num": 3,
+        "temporal_feature_importance": 0.3,
+        "batch_size": 8
+    },
+    "TaoBao": {
+        "learning_rate": 0.001,
+        "embedding_dimension": 32,
+        "embedding_dropout": 0.0,
+        "temporal_attention_dropout": 0.5,
+        "hop_num": 3,
+        "temporal_feature_importance": 0.05,
+        "batch_size": 32
+    },
+    "JingDong": {
+        "learning_rate": 0.001,
+        "embedding_dimension": 64,
+        "embedding_dropout": 0.2,
+        "temporal_attention_dropout": 0.5,
+        "hop_num": 3,
+        "temporal_feature_importance": 0.01,
+        "batch_size": 8
+    },
+    "TMS": {
+        "learning_rate": 0.001,
+        "embedding_dimension": 64,
+        "embedding_dropout": 0.3,
+        "temporal_attention_dropout": 0.5,
+        "hop_num": 2,
+        "temporal_feature_importance": 1.0,
+        "batch_size": 32
+    }
+}
