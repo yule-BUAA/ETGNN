@@ -45,15 +45,17 @@ Hyperparameters can be found in ```./utils/config.json``` file, and you can adju
 Please consider citing our paper when using the codes or datasets.
 
 ```
-@inproceedings{DBLP:conf/www/xxxx,
+@inproceedings{DBLP:conf/www/YuWS0L22,
   author    = {Le Yu and
                Guanghui Wu and
                Leilei Sun and
                Bowen Du and
                Weifeng Lv},
-  title     = {Element-guided Temporal Graph Representation Learning for Temporal Sets Prediction},
-  booktitle = {{WWW} '22: The ACM Web Conference 2022, Virtual Event, Lyon, France, April 25--29, 2022},
-  pages     = {xxx--xxx},
+  title     = {Element-guided Temporal Graph Representation Learning for Temporal
+               Sets Prediction},
+  booktitle = {{WWW} '22: The {ACM} Web Conference 2022, Virtual Event, Lyon, France,
+               April 25 - 29, 2022},
+  pages     = {1902--1913},
   publisher = {{ACM}},
   year      = {2022}
 }
