@@ -1,7 +1,6 @@
 # Element-guided Temporal Graph Representation Learning for Temporal Sets Prediction
 
-The description of "Element-guided Temporal Graph Representation Learning for Temporal Sets Prediction" 
-is [available here](https://dl.acm.org/doi/10.1145/3485447.3512064). 
+The description of "Element-guided Temporal Graph Representation Learning for Temporal Sets Prediction" at WWW 2022 is [available here](https://dl.acm.org/doi/10.1145/3485447.3512064). 
 
 ### Original data:
 The original data could be downloaded from [here](https://drive.google.com/file/d/1f2Eexc9vwRYYrrvLzuL4zBnWwWs6EHhI/view?usp=sharing). 
@@ -41,7 +40,7 @@ Hyperparameters can be found in ```./utils/config.json``` file, and you can adju
 | temporal information importance  | 0.3  | 0.05  | 0.01  |  1.0   |
 
 
-## Citation (To be Updated)
+## Citation
 Please consider citing our paper when using the codes or datasets.
 
 ```
