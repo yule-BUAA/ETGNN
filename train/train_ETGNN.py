@@ -65,7 +65,7 @@ if __name__ == '__main__':
                   temporal_feature_dimension=train_data_loader.temporal_feature_dimension,
                   embedding_dropout=get_attribute('embedding_dropout'),
                   temporal_attention_dropout=get_attribute('temporal_attention_dropout'),
-                  temporal_information_importance=get_attribute('temporal_feature_importance'))
+                  temporal_information_importance=get_attribute('temporal_information_importance'))
 
     model = convert_to_gpu(model, device=get_attribute('device'))
 

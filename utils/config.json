@@ -14,7 +14,7 @@
         "embedding_dropout": 0.2,
         "temporal_attention_dropout": 0.5,
         "hop_num": 3,
-        "temporal_feature_importance": 0.3,
+        "temporal_information_importance": 0.3,
         "batch_size": 8
     },
     "TaoBao": {
@@ -23,7 +23,7 @@
         "embedding_dropout": 0.0,
         "temporal_attention_dropout": 0.5,
         "hop_num": 3,
-        "temporal_feature_importance": 0.05,
+        "temporal_information_importance": 0.05,
         "batch_size": 32
     },
     "JingDong": {
@@ -32,7 +32,7 @@
         "embedding_dropout": 0.2,
         "temporal_attention_dropout": 0.5,
         "hop_num": 3,
-        "temporal_feature_importance": 0.01,
+        "temporal_information_importance": 0.01,
         "batch_size": 8
     },
     "TMS": {
@@ -41,7 +41,7 @@
         "embedding_dropout": 0.3,
         "temporal_attention_dropout": 0.5,
         "hop_num": 2,
-        "temporal_feature_importance": 1.0,
+        "temporal_information_importance": 1.0,
         "batch_size": 32
     }
 }

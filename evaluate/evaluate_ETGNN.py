@@ -20,7 +20,7 @@ config = {
             "embedding_dropout": 0.2,
             "temporal_attention_dropout": 0.5,
             "hop_num": 3,
-            "temporal_feature_importance": 0.3,
+            "temporal_information_importance": 0.3,
             "batch_size": 8
         },
         "TaoBao": {
@@ -29,7 +29,7 @@ config = {
             "embedding_dropout": 0.0,
             "temporal_attention_dropout": 0.5,
             "hop_num": 3,
-            "temporal_feature_importance": 0.05,
+            "temporal_information_importance": 0.05,
             "batch_size": 32
         },
         "JingDong": {
@@ -38,7 +38,7 @@ config = {
             "embedding_dropout": 0.2,
             "temporal_attention_dropout": 0.5,
             "hop_num": 3,
-            "temporal_feature_importance": 0.01,
+            "temporal_information_importance": 0.01,
             "batch_size": 8
         },
         "TMS": {
@@ -47,7 +47,7 @@ config = {
             "embedding_dropout": 0.3,
             "temporal_attention_dropout": 0.5,
             "hop_num": 2,
-            "temporal_feature_importance": 1.0,
+            "temporal_information_importance": 1.0,
             "batch_size": 32
         }
 }
@@ -106,7 +106,7 @@ if __name__ == '__main__':
                   temporal_feature_dimension=train_data_loader.temporal_feature_dimension,
                   embedding_dropout=get_attribute('embedding_dropout'),
                   temporal_attention_dropout=get_attribute('temporal_attention_dropout'),
-                  temporal_information_importance=get_attribute('temporal_feature_importance'))
+                  temporal_information_importance=get_attribute('temporal_information_importance'))
 
     save_model_path = f"../save_model_folder/{get_attribute('dataset_name')}/{get_attribute('model_name')}/{get_attribute('model_name')}.pkl"
 
